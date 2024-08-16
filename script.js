@@ -41,12 +41,12 @@ window.addEventListener("load",function() {
 
     setTimeout(() => {
         loader.classList.add('load-hidden');
-    }, 2000);
+    }, 20);
 
     loader.addEventListener("transitionend", ()=> {
         setTimeout(() => {
             this.document.body.removeChild('load');
-        }, 30000);
+        }, 30);
     })
 })
 
